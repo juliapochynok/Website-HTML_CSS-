@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="/styles/properties.css">
+</head>
+<body>
+    <div class="Header">
+        <p>
+        <a href="/index.html" class="MainTitle">HTML & CSS</a>
+        </p>
+    </div>
+    <div class="Main">
+        <br><br>
+        <h1 class="BIG_TITLE"> WHAT IS CSS DECLARATION?</h1>
+        <h2 class="desc">
+            Setting CSS properties to specific values is the core function of the CSS language. A <span class="desc_dark_purp">property</span> and <span class="desc_dark_purp">value</span> pair is called a <span class="desc_dark_purp">declaration</span>, and any CSS engine calculates which declarations apply to every single element of a page in order to appropriately lay it out, and to style it.
+            <br>
+            Both properties and values are case-insensitive by default in CSS. The pair is separated by a colon, ':' (U+003A COLON), and white spaces before, between, and after properties and values, but not necessarily inside, are ignored.
+        </h2>
+        <br><br><br>
+        <h1 class="BIG_TITLE" >SYNTAX: </h1>
+        <br>
+        <img src="/images/decl.png" alt="declarations" style="margin-left:550px; margin-right:500px; margin-bottom:20px; margin-top: 20px; height: 40%; width: 40%">
+        <p class="desc_dark">
+            <br>
+            - The declaration block contains one or more declarations separated by semicolons.
+            <br>
+            - Each declaration includes a CSS property name and a value, separated by a colon.
+            <br>
+            - A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
+        </p>
+        <br><br><br>
+        <h1 class="BIG_TITLE" >CSS DECLARATION BLOCKS. </h1>
+
+        
+        <span class="a" style="margin-right:300px; margin-left:450px; display: inline-block; margin-bottom:20px; margin-top: 20px;"> 
+            <h1 class="desc7" style="margin-left: 70px; margin-right: 50px; color:black; text-shadow: 4px 4px 4px #99B6BD, 0 0 1em  #99B6BD, 0 0 0.2em  #99B6BD;">
+                Declarations are grouped in blocks, that is in a structure delimited by an opening brace, 
+                '{' (U+007B LEFT CURLY BRACKET), and a closing one, '}' (U+007D RIGHT CURLY BRACKET). 
+                Blocks sometimes can be nested, so opening and closing braces must be matched.
+            </h1>
+            <br>
+            <img src="/images/decl2.png" alt="declarations" style=" margin-left:250px; margin-right:250px; margin-bottom:10px; margin-top: 4px; height: 20%; width: 45%; opacity: 1;">
+        
+            <h1 class="desc7" style="margin-left: 70px; margin-right: 50px; color:black; text-shadow: 4px 4px 4px  #99B6BD, 0 0 1em  #99B6BD, 0 0 0.2em  #99B6BD;">
+                Such blocks are naturally called declaration blocks and declarations inside them are separated by a semi-colon, 
+                ';' (U+003B SEMICOLON). A declaration block may be empty, that is containing null declaration. 
+                White spaces around declarations are ignored. The last declaration of a block doesn't need to be terminated by a 
+                semi-colon, though it is often considered good style to do it as it prevents forgetting to add it when extending the 
+                block with another declaration.
+            </h1>
+            <br>
+            <img src="/images/decl3.png" alt="declarations" style=" margin-left:250px; margin-right:250px; margin-bottom:10px; margin-top: 4px; height: 20%; width: 45%; opacity: 1; background-color: white;">
+        </span>
+
+
+        <h1 class="BIG_TITLE"> SOME OF MAIN HTML TAGS.</h1>
+
+        <table id="t01">
+            <tr>
+              <th>Property</th>
+              <th>Description</th> 
+            </tr>
+            <tr>
+              <td>animation</td>
+              <td>Specifies when the animation will start.</td>
+            </tr>
+            <tr>
+              <td>background</td>
+              <td>Defines a variety of background properties within one declaration.</td>
+            </tr>
+            <tr>
+              <td>border</td>
+              <td>Sets the width, style, and color for all four sides of an element's border.</td>
+            </tr>
+
+            <tr>
+            <td>color</td>
+            <td>Specify the color of the text of an element.</td>
+            </tr>
+            <tr>
+            <td>opacity</td>
+            <td>Specifies the transparency of an element.</td>
+            </tr>
+            <tr>
+            <td>height</td>
+            <td>Specify the height of an element.</td>
+            </tr>
+            <tr>
+            <td>content</td>
+            <td>Inserts generated content.</td>
+            </tr>
+            <tr>
+            <td>align-content </td>
+            <td>Specifies the alignment of flexible container's items within the flex container.</td>
+            </tr>
+            <tr>
+            <td>font</td>
+            <td>Defines a variety of font properties within one declaration.</td>
+            </tr>
+            <tr>
+            <td>list-style</td>
+            <td>Defines the display style for a list and list elements.</td>
+            </tr>
+            <tr>
+                <td>margin</td>
+                <td>Sets the margin on all four sides of the element.</td>
+              </tr>
+              <tr>
+                <td>column-count</td>
+                <td>Specifies the number of columns in a multi-column element.</td>
+              </tr>
+              <tr>
+                <td>outline</td>
+                <td>Sets the width, style, and color for all four sides of an element's outline.</td>
+              </tr>
+              <tr>
+                <td>padding</td>
+                <td>Sets the padding on all four sides of the element.</td>
+              </tr>
+              <tr>
+                <td>page-break-after</td>
+                <td>Insert a page breaks after an element.</td>
+              </tr>
+              <tr>
+                <td>border-collapse</td>
+                <td>Specifies whether table cell borders are connected or separated.</td>
+              </tr>
+              <tr>
+                <td>direction</td>
+                <td>Define the text direction/writing direction.</td>
+              </tr>
+              <tr>
+                <td>backface-visibility</td>
+                <td>Specifies whether or not the "back" side of a transformed element is visible when facing the user.</td>
+              </tr>
+              <tr>
+                <td>transition</td>
+                <td>Defines the transition between two states of an element.</td>
+              </tr>
+              <tr>
+                <td>display</td>
+                <td>Specifies how an element is displayed onscreen.</td>
+              </tr>
+          </table>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a class="button" onclick="window.location.href='/layouts/selectors.html';" style=" margin-left:1300px">
+            <svg><g>
+                <line x2="227.62" y1="31.28" y2="31.28"></line>
+                <polyline points="222.62 25.78 228.12 31.28 222.62 36.78"></polyline>
+                <circle cx="224.67" cy="30.94" r="30.5" transform="rotate(180 224.67 30.94) scale(1, -1) translate(0, -61)"></circle>
+            </g></svg>
+            <h1 style=" font-size: 30px; font-family: 'Wire One', sans-serif;">Selectors</h1>
+        </a>
+        <br>
+        <br>
+    </div>
+    <div class="Floar">
+            <a href="/layouts/info.html" class="SNS">INFO</a>
+        </div>
+</body>
+</html>

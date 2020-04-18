@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="/styles/selectors.css">
+</head>
+<body>
+    <div class="Header">
+        <p>
+        <a href="/index.html" class="MainTitle">HTML & CSS</a>
+        </p>
+    </div>
+    <div class="Main">
+            <br>
+            <br>
+        <h1 class="BIG_TITLE"> WHAT IS CSS SELECTOR?</h1>
+        <h2 class="desc">
+                CSS selectors are used to "find" (or select) the HTML elements you want to style.
+                <br>
+                We can divide CSS selectors into five categories:</h2>
+        <p class="desc_dark">
+            - Simple selectors (select elements based on name, id, class)
+            <br>
+            - Combinator selectors (select elements based on a specific relationship between them)
+            <br>
+            - Pseudo-class selectors (select elements based on a certain state)
+            <br>
+            - Pseudo-elements selectors (select and style a part of an element)
+            <br>
+            - Attribute selectors (select elements based on an attribute or attribute value)
+        </p>
+        <br><br><br>
+    <h1 class="BIG_TITLE"> SELECTORS.</h1>
+        <span class="a" style="width: 900px;height: 400px;margin-left:700px;margin-right:200px;margin-bottom:50px;margin-top: 20px;">
+
+            <h2 class="desc1" style="margin-bottom:10px; text-align: center; color:rgb(0, 0, 0); text-shadow: 4px 4px 4px rgb(255, 255, 255), 0 0 1em rgb(252, 252, 252), 0 0 rgb(255, 255, 255);">
+                The element Selector.
+            </h2>
+            <br>
+            <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px #99B6BD, 0 0 1em  #99B6BD, 0 0 0.2em  #99B6BD;">
+                The element selector selects HTML elements based on the element name.
+            </h1>
+        <br>
+        <span class="m">
+        <h1 class="desc7" style="margin-bottom:10px; text-align: center; color:rgb(164, 231, 120); text-shadow: 4px 4px 4px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);">
+            EXAMPLE: <br>
+            p {
+                text-align: center;
+                color: red;
+              } 
+        </h1>
+        </span>
+        <br>
+        <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px rgb(243, 135, 135), 0 0 1em rgb(243, 135, 135), 0 0 0.2em rgb(243, 135, 135);">
+                Here, all &lt;p&gt; elements on the page will be center-aligned, with a red text color.
+                </h1>
+    </span>
+
+    <span class="a" style="width: 900px;height: 400px;margin-left:200px;margin-right:200px;margin-bottom:50px;margin-top: 20px;">  
+            <h2 class="desc1" style="margin-bottom:10px; text-align: center; color:rgb(0, 0, 0); text-shadow: 4px 4px 4px rgb(255, 255, 255), 0 0 1em rgb(252, 252, 252), 0 0 rgb(255, 255, 255);">
+                The id Selector.
+            </h2>
+            <br>
+            <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px #99B6BD, 0 0 1em  #99B6BD, 0 0 0.2em  #99B6BD;">
+                    The id selector uses the id attribute of an HTML element to select a specific element.
+                    <br>
+                    The id of an element is unique within a page, so the id selector is used to select one unique element!
+                    <br>
+                    To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+                </h1>
+        <br>
+        <span class="m" style="margin-top:7px; margin-bottom:7px;">
+        <h1 class="desc7" style="margin-bottom:10px; text-align: center; color:rgb(164, 231, 120); text-shadow: 4px 4px 4px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);">
+            EXAMPLE:<br>
+            #para1 {
+                text-align: center;
+                color: red;
+              }
+        </h1>
+        </span>
+        <br>
+        <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px rgb(243, 135, 135), 0 0 1em rgb(243, 135, 135), 0 0 0.2em rgb(243, 135, 135);">
+                Note: An id name cannot start with a number!
+
+            </h1>
+    </span>
+
+
+    <span class="a" style="width: 900px;height: 830px;margin-left:700px;margin-right:200px;margin-bottom:50px;margin-top: 20px;">
+        <h2 class="desc1" style="margin-bottom:10px; text-align: center; color:rgb(0, 0, 0); text-shadow: 4px 4px 4px rgb(255, 255, 255), 0 0 1em rgb(252, 252, 252), 0 0 rgb(255, 255, 255);">
+            The class Selector.
+        </h2>
+        <br>
+        <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px #99B6BD, 0 0 1em  #99B6BD, 0 0 0.2em  #99B6BD;">
+                The class selector selects HTML elements with a specific class attribute.
+                <br>
+                To select elements with a specific class, write a period (.) character, followed by the class name.
+            </h1>
+    <br>
+    <span class="m">
+    <h1 class="desc7" style="margin-bottom:10px; text-align: center; color:rgb(164, 231, 120); text-shadow: 4px 4px 4px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);">
+        EXAMPLE: <br>
+        .center {
+            text-align: center;
+            color: red;
+          }
+    </h1>
+    </span>
+    <br>
+    <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px rgb(243, 135, 135), 0 0 1em rgb(243, 135, 135), 0 0 0.2em rgb(243, 135, 135);">
+        In this example all HTML elements with class="center" will be red and center-aligned.
+    </h1> 
+    <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px #99B6BD, 0 0 1em  #99B6BD, 0 0 0.2em  #99B6BD;">
+            You can also specify that only specific HTML elements should be affected by a class.
+        </h1>
+    <span class="m">
+    <h1 class="desc7" style="margin-bottom:10px; text-align: center; color:rgb(164, 231, 120); text-shadow: 4px 4px 4px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);">
+        EXAMPLE: <br>
+        p.center {
+            text-align: center;
+            color: red;
+          }
+    </h1>
+    </span>
+    <br>
+    <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px rgb(243, 135, 135), 0 0 1em rgb(243, 135, 135), 0 0 0.2em rgb(243, 135, 135);">
+        In this example only <p> elements with class="center" will be center-aligned.
+    </h1>   
+    <h1 class="desc7" style="margin-left: 50px; color:black; color:black; text-shadow: 4px 4px 4px #99B6BD, 0 0 1em  #99B6BD, 0 0 0.2em  #99B6BD;">
+            HTML elements can also refer to more than one class.
+    </h1>
+    <span class="m">
+    <h1 class="desc7" style="margin-bottom:10px; text-align: center; color:rgb(164, 231, 120); text-shadow: 4px 4px 4px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);">
+        EXAMPLE: &lt;p class="center large"&gt;This paragraph refers to two classes.&lt;/p&gt;
+    </h1>
+    </span>
+    <br>
+    <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px rgb(243, 135, 135), 0 0 1em rgb(243, 135, 135), 0 0 0.2em rgb(243, 135, 135);">
+        In this example the <p> element will be styled according to class="center" and to class="large".
+    </h1>       
+    </span>
+
+
+
+    <span class="a" style="width: 900px;height: 400px;margin-left:200px;margin-right:200px;margin-bottom:50px;margin-top: 20px;">
+        <h2 class="desc1" style="margin-bottom:10px; text-align: center; color:rgb(0, 0, 0); text-shadow: 4px 4px 4px rgb(255, 255, 255), 0 0 1em rgb(252, 252, 252), 0 0 rgb(255, 255, 255);">
+            The Universal Selector.
+        </h2>
+        <br>
+        <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px #99B6BD, 0 0 1em  #99B6BD, 0 0 0.2em  #99B6BD;">
+                The universal selector (*) selects all HTML elements on the page.
+            </h1>
+    <br>
+    <span class="m">
+    <h1 class="desc7" style="margin-bottom:10px; text-align: center; color:rgb(164, 231, 120); text-shadow: 4px 4px 4px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);">
+        EXAMPLE: <br>
+        * {
+            text-align: center;
+            color: blue;
+          }
+    </h1>
+    </span>
+    <br>
+    <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px rgb(243, 135, 135), 0 0 1em rgb(243, 135, 135), 0 0 0.2em rgb(243, 135, 135);">
+        The CSS rule below will affect every HTML element on the page.
+         </h1>
+    </span>
+
+
+    <span class="a" style="width: 900px;height: 400px;margin-left:700px;margin-right:200px;margin-bottom:50px;margin-top: 20px;">
+            <h2 class="desc1" style="margin-bottom:10px; text-align: center; color:rgb(0, 0, 0); text-shadow: 4px 4px 4px rgb(255, 255, 255), 0 0 1em rgb(252, 252, 252), 0 0 rgb(255, 255, 255);">
+                The Grouping Selector.
+            </h2>
+            <br>
+            <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px #99B6BD, 0 0 1em  #99B6BD, 0 0 0.2em  #99B6BD;">
+                    The grouping selector selects all the HTML elements with the same style definitions.<br>
+                    It will be better to group the selectors, to minimize the code.
+                    <br>
+                    To group selectors, separate each selector with a comma.
+                </h1>
+        <br>
+        <span class="m">
+        <h1 class="desc7" style="margin-bottom:10px; text-align: center; color:rgb(164, 231, 120); text-shadow: 4px 4px 4px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(0, 0, 0);">
+            EXAMPLE: <br>
+            h1, h2, p {
+                text-align: center;
+                color: red;
+              }
+        </h1>
+        </span>
+        <br>
+        <h1 class="desc7" style="margin-left: 50px; color:black; text-shadow: 4px 4px 4px rgb(243, 135, 135), 0 0 1em rgb(243, 135, 135), 0 0 0.2em rgb(243, 135, 135);">
+                In this example we have grouped three selectors.
+             </h1>
+        </span>
+
+
+        <h1 class="BIG_TITLE"> SIMPLE SELECTORS.</h1>
+
+        <table id="t01">
+            <tr>
+              <th>Selector</th>
+              <th>Example</th> 
+              <th>Example description</th> 
+            </tr>
+            <tr>
+              <td>.class</td>
+              <td>.intro</td>
+              <td>Selects all elements with class="intro"</td>
+            </tr>
+            <tr>
+              <td>#id</td>
+              <td>#firstname</td>
+              <td>Selects the element with id="firstname"</td>
+            </tr>
+            <tr>
+              <td>*</td>
+              <td>*</td>
+              <td>Selects all elements</td>
+            </tr>
+
+            <tr>
+            <td>element</td>
+            <td>p</td>
+            <td>Selects all &lt;p&gt; elements</td>
+            </tr>
+            <tr>
+            <td>element,element,..</td>
+            <td>div, p</td>
+            <td>Selects all &lt;div&gt; elements and all &lt;p&gt; elements</td>
+            </tr>
+          </table>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a class="button" onclick="window.location.href='/layouts/layouts.html';" style=" margin-left:1300px">
+            <svg><g>
+                <line x2="227.62" y1="31.28" y2="31.28"></line>
+                <polyline points="222.62 25.78 228.12 31.28 222.62 36.78"></polyline>
+                <circle cx="224.67" cy="30.94" r="30.5" transform="rotate(180 224.67 30.94) scale(1, -1) translate(0, -61)"></circle>
+            </g></svg>
+            <h1 style=" font-size: 30px; font-family: 'Wire One', sans-serif;">Layouts</h1>
+        </a>
+        <br>
+        <br>
+    </div>
+    <div class="Floar">
+            <a href="/layouts/info.html" class="SNS">INFO</a>
+        </div>
+</body>
+</html>

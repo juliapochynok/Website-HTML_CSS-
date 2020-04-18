@@ -1,0 +1,189 @@
+
+
+
+
+/* YELLOW BOX */
+.LIST_img_yell {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(245, 230, 19);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_yell:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(224, 238, 97, 0.9);
+    box-shadow: 0px 0px 30px rgba(224, 238, 97, 0.9);
+}
+
+.LIST_img_yell:hover:after {
+    content:'NEW';
+}
+
+
+.LIST_img_yell_q {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(245, 230, 19);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_yell_q:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(224, 238, 97, 0.9);
+    box-shadow: 0px 0px 30px rgba(224, 238, 97, 0.9);
+}
+
+.LIST_img_yell_q:hover:after {
+    content:'The <q> tag defines a short quotation. Browsers normally insert quotation marks around the quotation.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+
+.LIST_img_yell_area {
+    width: 12%;
+    height: 20%; 
+    float: left;
+
+    margin: 1%;
+    border: 5px solid #fff;
+    background-color: rgb(245, 230, 19);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_yell_area:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(224, 238, 97, 0.9);
+    box-shadow: 0px 0px 30px rgba(224, 238, 97, 0.9);
+}
+
+.LIST_img_yell_area:hover:after {
+    content:'The <area> tag defines an area inside an image-map (an image-map is an image with clickable areas). The <area> element is always nested inside a <map> tag.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_yell_table {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(245, 230, 19);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_yell_table:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(224, 238, 97, 0.9);
+    box-shadow: 0px 0px 30px rgba(224, 238, 97, 0.9);
+}
+
+.LIST_img_yell_table:hover:after {
+    content:'The <table> tag defines an HTML table. An HTML table consists of the <table> element and one or more <tr>, <th>, and <td> elements.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+.LIST_img_yell_on {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(245, 230, 19);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_yell_on:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(224, 238, 97, 0.9);
+    box-shadow: 0px 0px 30px rgba(224, 238, 97, 0.9);
+}
+
+.LIST_img_yell_on:hover:after {
+    content:'Script to be run when the element is being clicked.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_yell_wrap {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(245, 230, 19);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_yell_wrap:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(224, 238, 97, 0.9);
+    box-shadow: 0px 0px 30px rgba(224, 238, 97, 0.9);
+}
+
+.LIST_img_yell_wrap:hover:after {
+    content:'Specifies how the text in a text area is to be wrapped when submitted in a form.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}

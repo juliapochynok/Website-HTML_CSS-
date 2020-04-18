@@ -1,0 +1,190 @@
+
+
+
+/* BLUE BOX */
+.LIST_img_blue {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+    border: 5px solid #fff;
+    background-color: rgb(12, 167, 206);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_blue:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(109, 160, 201, 0.9);
+    box-shadow: 0px 0px 30px rgba(109, 160, 201, 0.9);
+}
+
+.LIST_img_blue:hover:after {
+    content:'The <p> tag defines a paragraph.Browsers automatically add some space (margin) before and after each <p> element.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_blue_a {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(12, 167, 206);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_blue_a:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(109, 160, 201, 0.9);
+    box-shadow: 0px 0px 30px rgba(109, 160, 201, 0.9);
+}
+
+.LIST_img_blue_a:hover:after {
+    content:"The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.";
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_blue_base {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+    border: 5px solid #fff;
+    background-color: rgb(12, 167, 206);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_blue_base:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(109, 160, 201, 0.9);
+    box-shadow: 0px 0px 30px rgba(109, 160, 201, 0.9);
+}
+
+.LIST_img_blue_base:hover:after {
+    content:"The <base> tag specifies the base URL/target for all relative URLs in a document. There can be at maximum one <base> element in a document, and it must be inside the <head> element.";
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_blue_input {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+    border: 5px solid #fff;
+    background-color: rgb(12, 167, 206);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_blue_input:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(109, 160, 201, 0.9);
+    box-shadow: 0px 0px 30px rgba(109, 160, 201, 0.9);
+}
+
+.LIST_img_blue_input:hover:after {
+    content:" The <input> tag specifies an input field where the user can enter data. <input> elements are used within a <form> element to declare input controls that allow users to input data.";
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_blue_scr {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+    border: 5px solid #fff;
+    background-color: rgb(12, 167, 206);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_blue_scr:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(109, 160, 201, 0.9);
+    box-shadow: 0px 0px 30px rgba(109, 160, 201, 0.9);
+}
+
+.LIST_img_blue_scr:hover:after {
+    content:"Specifies the URL of the image to use in different situations.";
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+
+.LIST_img_blue_size {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+    border: 5px solid #fff;
+    background-color: rgb(12, 167, 206);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_blue_size:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(109, 160, 201, 0.9);
+    box-shadow: 0px 0px 30px rgba(109, 160, 201, 0.9);
+}
+
+.LIST_img_blue_size:hover:after {
+    content:"Specifies the width, in characters (for <input>) or specifies the number of visible options (for <select>).";
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}

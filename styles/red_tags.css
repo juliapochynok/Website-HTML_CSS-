@@ -1,0 +1,192 @@
+
+/* RED BOX */
+.LIST_img_red_p {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(219, 0, 0);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_red_p:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(204, 76, 76, 0.9);
+    box-shadow: 0px 0px 30px rgba(218, 99, 99, 0.9);
+}
+
+.LIST_img_red_p:hover:after {
+    content:'The <p> tag defines a paragraph.Browsers automatically add some space (margin) before and after each <p> element.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+.LIST_img_red {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(219, 0, 0);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_red:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(204, 76, 76, 0.9);
+    box-shadow: 0px 0px 30px rgba(218, 99, 99, 0.9);
+}
+
+.LIST_img_red:hover:after {
+    content:'The <p> tag defines a paragraph.Browsers automatically add some space (margin) before and after each <p> element.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+.LIST_img_red_obj {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(219, 0, 0);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_red_obj:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(204, 76, 76, 0.9);
+    box-shadow: 0px 0px 30px rgba(218, 99, 99, 0.9);
+}
+
+.LIST_img_red_obj:hover:after {
+    content:'The <object> tag defines an embedded object within an HTML document. Use this element to embed multimedia (like audio, video, Java applets, ActiveX, PDF, and Flash) in your web pages.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_red_ul {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(219, 0, 0);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_red_ul:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(204, 76, 76, 0.9);
+    box-shadow: 0px 0px 30px rgba(218, 99, 99, 0.9);
+}
+
+.LIST_img_red_ul:hover:after {
+    content:'The <ul> tag defines an unordered (bulleted) list. Use the <ul> tag together with the <li> tag to create unordered lists.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+
+
+.LIST_img_red_ac {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(219, 0, 0);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_red_ac:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(204, 76, 76, 0.9);
+    box-shadow: 0px 0px 30px rgba(218, 99, 99, 0.9);
+}
+
+.LIST_img_red_ac:hover:after {
+    content:'Specifies the types of files that the server accepts.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_red_val {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(219, 0, 0);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_red_val:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(204, 76, 76, 0.9);
+    box-shadow: 0px 0px 30px rgba(218, 99, 99, 0.9);
+}
+
+.LIST_img_red_val:hover:after {
+    content:'Specifies the value of the element';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}

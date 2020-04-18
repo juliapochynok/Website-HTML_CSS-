@@ -1,0 +1,189 @@
+
+
+
+/* GREEN BOX */
+.LIST_img_gr {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+    border: 5px solid #fff;
+    background-color: rgb(73, 190, 4);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_gr:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(134, 236, 120, 0.9);
+    box-shadow: 0px 0px 30px rgba(134, 236, 120, 0.9);
+}
+
+.LIST_img_gr:hover:after {
+    content:'The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+.LIST_img_gr_hr {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+    border: 5px solid #fff;
+    background-color: rgb(73, 190, 4);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_gr_hr:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(134, 236, 120, 0.9);
+    box-shadow: 0px 0px 30px rgba(134, 236, 120, 0.9);
+}
+
+.LIST_img_gr_hr:hover:after {
+    content:'<hr> stands for Horizontal Rule. This tag is used to put a line across the webpage.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_gr_img {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(73, 190, 4);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_gr_img:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(134, 236, 120, 0.9);
+    box-shadow: 0px 0px 30px rgba(134, 236, 120, 0.9);
+}
+
+.LIST_img_gr_img:hover:after {
+    content:'The <img> tag defines an image in an HTML page. Images are not technically inserted into an HTML page, images are linked to HTML pages. The <img> tag creates a holding space for the referenced image.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_gr_form {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+    border: 5px solid #fff;
+    background-color: rgb(73, 190, 4);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_gr_form:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(134, 236, 120, 0.9);
+    box-shadow: 0px 0px 30px rgba(134, 236, 120, 0.9);
+}
+
+.LIST_img_gr_form:hover:after {
+    content:'The <form> tag is used to create an HTML form for user input.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+
+.LIST_img_gr_on {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(73, 190, 4);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_gr_on:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(134, 236, 120, 0.9);
+    box-shadow: 0px 0px 30px rgba(134, 236, 120, 0.9);
+}
+
+.LIST_img_gr_on:hover:after {
+    content:'Script to be run when the content of the element is being copied.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
+
+.LIST_img_gr_src {
+    width: 12%;
+    height: 20%; 
+    float: left;
+    margin: 1%;
+
+    border: 5px solid #fff;
+    background-color: rgb(73, 190, 4);
+   
+    -webkit-transition: box-shadow 0.5s ease;
+    -moz-transition: box-shadow 0.5s ease;
+    -o-transition: box-shadow 0.5s ease;
+    -ms-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+  }
+   
+  .LIST_img_gr_src:hover {
+    -webkit-box-shadow: 0px 0px 15px rgba(134, 236, 120, 0.9);
+    box-shadow: 0px 0px 30px rgba(134, 236, 120, 0.9);
+}
+
+.LIST_img_gr_src:hover:after {
+    content:'Specifies the URL of the media file.';
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font: oblique;
+    font-size: 0.7vw;
+    color:   rgb(255, 253, 254);
+    text-shadow: 4px 4px 4px rgb(8, 6, 6), 0 0 1em rgb(5, 4, 4), 0 0 0.2em rgb(3, 3, 3);
+}
